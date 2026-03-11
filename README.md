@@ -35,7 +35,8 @@ The Olist [Source kaggle dataset](https://www.kaggle.com/datasets/olistbr/brazil
 9. **product_category_name_translation:**   Translates the product_category_name to english.
 
 ![Alt text] (Assets/dataschema.png)
-
+![image] (https://github.com/fern-1210/IronHack---Final-Project---CLV-RFM-Machine-Learning/blob/main/Assets/data%20schema.png)
+![image] (https://github.com/fern-1210/IronHack---Final-Project---CLV-RFM-Machine-Learning/blob/main/Assets/data%20schema)
 
 
 ## **Data Cleaning & Preparation**
