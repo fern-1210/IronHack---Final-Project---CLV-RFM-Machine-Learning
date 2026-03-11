@@ -34,7 +34,7 @@ The Olist [Source kaggle dataset](https://www.kaggle.com/datasets/olistbr/brazil
 8. **olist_geolocation_dataset:**           This dataset has information Brazilian zip codes and its lat/lng coordinates.
 9. **product_category_name_translation:**   Translates the product_category_name to english.
 
-![Alt text] (https://github.com/fern-1210/IronHack---Final-Project---CLV-RFM-Machine-Learning/blob/main/Assets/data%20schema.png)
+![Alt text] (Assets/dataschema.png)
 
 
 
