@@ -24,24 +24,18 @@ Through this project, I demonstrate my ability to collect, clean, analyze, and v
 
 ## **DATASET AND DATA INFORMAITON**
 The Olist [Source kaggle dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/) comprises nine separate datasets, all of which are stored in CSV format:
-1. olist_order_items_dataset
-- This dataset includes data about the items purchased within each order.
-2. olist_orders_dataset
-- This is the core dataset. From each order you find all order information.
-3. olist_order_payments_dataset
-- This dataset includes data about the orders payment options.
-4. olist_order_reviews_dataset
-- This dataset includes data about the reviews made by the customers. Built off satisfaction survey on purcahse experence and other comments
-5. olist_products_dataset
-- This dataset includes data about the products sold by Olist.
-6. olist_customers_dataset
-- This dataset identifies unique customers in the orders dataset and to find the orders delivery location.
-7. olist_sellers_dataset
-- This dataset includes data about the sellers that fulfilled orders made at Olist.
-8. olist_geolocation_dataset
-- This dataset has information Brazilian zip codes and its lat/lng coordinates.
-9. product_category_name_translation
-- Translates the product_category_name to english.
+1. **olist_order_items_dataset:**           This dataset includes data about the items purchased within each order.
+2. **olist_orders_dataset:**                This is the core dataset. From each order you find all order information.
+3. **olist_order_payments_dataset:**        This dataset includes data about the orders payment options.
+4. **olist_order_reviews_dataset:**         This dataset includes data about the reviews made by the customers. Built off satisfaction survey on purcahse experence and other comments
+5. **olist_products_dataset:**              This dataset includes data about the products sold by Olist.
+6. **olist_customers_dataset:**             This dataset identifies unique customers in the orders dataset and to find the orders delivery location.
+7. **olist_sellers_dataset:**               This dataset includes data about the sellers that fulfilled orders made at Olist.
+8. **olist_geolocation_dataset:**           This dataset has information Brazilian zip codes and its lat/lng coordinates.
+9. **product_category_name_translation:**   Translates the product_category_name to english.
+
+![Alt text] (https://github.com/fern-1210/IronHack---Final-Project---CLV-RFM-Machine-Learning/blob/main/Assets/data%20schema.png)
+
 
 
 ## **Data Cleaning & Preparation**
@@ -142,22 +136,18 @@ These engineered variables were designed to capture behavioral signals associate
 
 
 
-**Machine Learning Models**
+## **Machine Learning Models**
 
 Multiple supervised learning models were implemented to evaluate churn prediction performance.
 
-**Logistic Regression**
+1. **Logistic Regression**
 Logistic Regression was used as a baseline classification model due to its interpretability and efficiency. It provides a reference point for understanding the predictive value of engineered features.
 
-**Random Forest**
+2. **Random Forest**
 A Random Forest classifier was implemented to capture nonlinear relationships and interactions between behavioral variables. Tree-based models are well-suited for structured customer transaction data and can automatically detect complex patterns.
 
-
-
-**Handling Class Imbalance**
-
+3. **Handling Class Imbalance**
 Because churned customers represented the majority class in the dataset, techniques were implemented to address class imbalance:
-
 - Class-weighted learning was applied during model training.
 - SMOTE (Synthetic Minority Over-sampling Technique) was tested to synthetically generate additional samples of the minority class.
 
@@ -197,7 +187,7 @@ The analysis of customer transaction behavior revealed several important pattern
 
 
 
-##**Strategic Recommendations**
+## **Strategic Recommendations**
 
 Based on the findings, several data-driven strategies can help improve customer retention and marketplace performance:
 
@@ -205,19 +195,6 @@ Based on the findings, several data-driven strategies can help improve customer 
 - Prioritize retention efforts on high predicted CLV segments to maximize long-term revenue impact.
 - Develop targeted re-engagement campaigns for customers showing early signs of disengagement.
 - Monitor customer behavioral metrics continuously to support proactive customer relationship management.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## **RECOMMENDATIONS**
@@ -234,4 +211,5 @@ Based on the findings, several data-driven strategies can help improve customer 
 3. Olist should proactively address customer concerns by responding to negative reviews. (Note: Promptly and professionally addressing negative reviews shows the company's dedication to resolving issues and improving customer satisfaction.)
 4. Olist should continuously improve products based on feedback and market trends. (Note: Regular evaluation and innovation keep products aligned with customer needs and preferences.)
 5. Olist should offer exceptional customer service to regain trust and loyalty. (Note: Going above and beyond to resolve issues and provide excellent service can turn negative experiences into positive ones, rebuilding customer trust.)
+
 By implementing these recommendations and considering the accompanying notes, Olist can enhance customer retention, address low ratings, and foster stronger customer relationships.
