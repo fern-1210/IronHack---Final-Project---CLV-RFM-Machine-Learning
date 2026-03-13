@@ -169,10 +169,8 @@ This evaluation framework ensures that models are assessed not only on accuracy 
 
 For a complete walkthrough of the analysis, methodology, insights, and strategic recommendations, please refer to the full project presentation:
 
-📊 Project Presentation:
-(((((Insert presentation link here )))))
-
-The presentation provides detailed explanations of the business problem, analytical workflow, modeling approach, and final recommendations.
+📊 [Project Presentation]:([Project Presentation](https://gamma.app/docs/Customer-Retention-Lifetime-Value-Analysis--c3r06v2owqhiezh))
+📊 [Tableau Dashboard]:([Tableau Dashboard](https://public.tableau.com/app/profile/julian.fernandes/viz/IronHack-FinalProject-CVLRFMSegmentation/Dashboard1))
 
 
 
